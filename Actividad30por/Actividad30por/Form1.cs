@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Actividad30por
 {
     public partial class Form1 : Form
@@ -25,6 +26,11 @@ namespace Actividad30por
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

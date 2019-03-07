@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Actividad30por.modelo
 {
-    class Estuduante
+    class Estudiante
     {
         public char genero;
         public byte edad;
