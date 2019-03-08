@@ -149,6 +149,7 @@
             this.Controls.Add(this.textoNombre);
             this.Controls.Add(this.textoNumeroControl);
             this.Name = "FormaEstudiante";
+            this.Opacity = 0.7D;
             this.Text = "FormaEstudiante";
             this.ResumeLayout(false);
             this.PerformLayout();
