@@ -14,6 +14,9 @@ namespace Partido.championship
         private string _entrenador;
         private string _comunidad;
 
+        //Enlace con jugador
+        private List<Jugador> jugadores = new List<Jugador>();
+
         //Métodos Getter´s y Setter´s
         public int Id { get; set; }
         public string Nombre { get; set; }

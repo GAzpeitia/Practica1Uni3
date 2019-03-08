@@ -46,8 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="championship\Arbitro.cs" />
     <Compile Include="championship\Cancha.cs" />
     <Compile Include="championship\Equipo.cs" />
+    <Compile Include="championship\Jugador.cs" />
     <Compile Include="championship\Persona.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
