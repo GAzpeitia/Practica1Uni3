@@ -53,7 +53,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="modelo\Boleto.cs" />
+    <Compile Include="modelo\Cartelera.cs" />
     <Compile Include="modelo\Cliente.cs" />
+    <Compile Include="modelo\Pelicula.cs" />
     <Compile Include="modelo\Persona.cs" />
     <Compile Include="modelo\Reservacion.cs" />
     <Compile Include="modelo\Taquillero.cs" />
