@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="modelo\Cliente.cs" />
     <Compile Include="modelo\Persona.cs" />
+    <Compile Include="modelo\Reservacion.cs" />
     <Compile Include="modelo\Taquillero.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
