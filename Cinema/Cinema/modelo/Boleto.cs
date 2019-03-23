@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cinema.modelo
 {
-    class Boleto:Reservacion
+    class Boleto
     {
         private long _folio;
         private DateTime _fecha;

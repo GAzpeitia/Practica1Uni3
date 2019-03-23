@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cinema.modelo
 {
-    class Taquillero
+    class Taquillero:Persona
     {
         private int _numeroEmpleado;
         private string _tipoEmpleado;

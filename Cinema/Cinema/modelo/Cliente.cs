@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cinema.modelo
 {
-    class Cliente
+    class Cliente:Persona
     {
         private string _celular;
 
