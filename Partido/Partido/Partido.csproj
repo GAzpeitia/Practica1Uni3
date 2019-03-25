@@ -53,8 +53,10 @@
       <DependentUpon>FormArbitro.cs</DependentUpon>
     </Compile>
     <Compile Include="championship\Arbitro.cs" />
+    <Compile Include="championship\Campeonato.cs" />
     <Compile Include="championship\Cancha.cs" />
     <Compile Include="championship\Equipo.cs" />
+    <Compile Include="championship\Jornada.cs" />
     <Compile Include="championship\Jugador.cs" />
     <Compile Include="championship\Persona.cs" />
     <Compile Include="Form1.cs">
