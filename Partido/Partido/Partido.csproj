@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="campeonato\FormCampeonato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="campeonato\FormCampeonato.Designer.cs">
+      <DependentUpon>FormCampeonato.cs</DependentUpon>
+    </Compile>
     <Compile Include="campeonato\FormArbitro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="campeonato\FormArbitro.resx">
       <DependentUpon>FormArbitro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="campeonato\FormCampeonato.resx">
+      <DependentUpon>FormCampeonato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
