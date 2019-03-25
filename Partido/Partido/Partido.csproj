@@ -58,6 +58,12 @@
     <Compile Include="campeonato\FormArbitro.Designer.cs">
       <DependentUpon>FormArbitro.cs</DependentUpon>
     </Compile>
+    <Compile Include="campeonato\FormJornada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="campeonato\FormJornada.Designer.cs">
+      <DependentUpon>FormJornada.cs</DependentUpon>
+    </Compile>
     <Compile Include="championship\Arbitro.cs" />
     <Compile Include="championship\Campeonato.cs" />
     <Compile Include="championship\Cancha.cs" />
@@ -78,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="campeonato\FormCampeonato.resx">
       <DependentUpon>FormCampeonato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="campeonato\FormJornada.resx">
+      <DependentUpon>FormJornada.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

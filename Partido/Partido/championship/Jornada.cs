@@ -8,13 +8,13 @@ namespace Partido.championship
 {
     class Jornada:Persona
     {
-        private int _id;
+        //private int _id;
         private DateTime _fechaInicio;
         private DateTime _fechaFin;
         private Boolean _isConcluida;
         
         //Métodos Getter´s y Setter´s
-        public int Id { get; set; }
+        //public int Id { get; set; }
         public DateTime FechaInicio { get; set; }
         public DateTime FechaFin { get; set; }
         public Boolean IsConcluida { get; set; }
