@@ -46,43 +46,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="campeonato\FormAdministracionCampeonatos.cs">
+    <Compile Include="vista\FormAdministracionCampeonatos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="campeonato\FormAdministracionCampeonatos.Designer.cs">
+    <Compile Include="vista\FormAdministracionCampeonatos.Designer.cs">
       <DependentUpon>FormAdministracionCampeonatos.cs</DependentUpon>
     </Compile>
-    <Compile Include="campeonato\FormCampeonato.cs">
+    <Compile Include="vista\FormCampeonato.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="campeonato\FormCampeonato.Designer.cs">
+    <Compile Include="vista\FormCampeonato.Designer.cs">
       <DependentUpon>FormCampeonato.cs</DependentUpon>
     </Compile>
-    <Compile Include="campeonato\FormArbitro.cs">
+    <Compile Include="vista\FormArbitro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="campeonato\FormArbitro.Designer.cs">
+    <Compile Include="vista\FormArbitro.Designer.cs">
       <DependentUpon>FormArbitro.cs</DependentUpon>
     </Compile>
-    <Compile Include="campeonato\FormJornada.cs">
+    <Compile Include="vista\FormJornada.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="campeonato\FormJornada.Designer.cs">
+    <Compile Include="vista\FormJornada.Designer.cs">
       <DependentUpon>FormJornada.cs</DependentUpon>
     </Compile>
-    <Compile Include="campeonato\FormPrincipal.cs">
+    <Compile Include="vista\FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="campeonato\FormPrincipal.Designer.cs">
+    <Compile Include="vista\FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="championship\Arbitro.cs" />
-    <Compile Include="championship\Campeonato.cs" />
-    <Compile Include="championship\Cancha.cs" />
-    <Compile Include="championship\Equipo.cs" />
-    <Compile Include="championship\Jornada.cs" />
-    <Compile Include="championship\Jugador.cs" />
-    <Compile Include="championship\Persona.cs" />
+    <Compile Include="modelo\Arbitro.cs" />
+    <Compile Include="modelo\Campeonato.cs" />
+    <Compile Include="modelo\Cancha.cs" />
+    <Compile Include="modelo\Equipo.cs" />
+    <Compile Include="modelo\Jornada.cs" />
+    <Compile Include="modelo\Jugador.cs" />
+    <Compile Include="modelo\Persona.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,19 +91,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="campeonato\FormAdministracionCampeonatos.resx">
+    <EmbeddedResource Include="vista\FormAdministracionCampeonatos.resx">
       <DependentUpon>FormAdministracionCampeonatos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="campeonato\FormArbitro.resx">
+    <EmbeddedResource Include="vista\FormArbitro.resx">
       <DependentUpon>FormArbitro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="campeonato\FormCampeonato.resx">
+    <EmbeddedResource Include="vista\FormCampeonato.resx">
       <DependentUpon>FormCampeonato.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="campeonato\FormJornada.resx">
+    <EmbeddedResource Include="vista\FormJornada.resx">
       <DependentUpon>FormJornada.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="campeonato\FormPrincipal.resx">
+    <EmbeddedResource Include="vista\FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">

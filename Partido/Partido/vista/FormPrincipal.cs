@@ -6,12 +6,14 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
 
-namespace Partido.campeonato
-{
+namespace Partido
+{ 
     public partial class FormPrincipal : Form
     {
+        
         public FormPrincipal()
         {
             InitializeComponent();
@@ -20,6 +22,12 @@ namespace Partido.campeonato
         private void button3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Program.formaCampeonato.Show(); //Mostrar ventana
+            Hide();
         }
     }
 }

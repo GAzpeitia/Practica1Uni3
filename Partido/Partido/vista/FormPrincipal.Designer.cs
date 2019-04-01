@@ -1,4 +1,4 @@
-﻿namespace Partido.campeonato
+﻿namespace Partido
 {
     partial class FormPrincipal
     {
@@ -29,41 +29,43 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnCampeonato = new System.Windows.Forms.Button();
+            this.btnJornada = new System.Windows.Forms.Button();
+            this.btnPartido = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnSalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCampeonato
             // 
-            this.button1.Location = new System.Drawing.Point(12, 133);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(337, 30);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Campeonatos";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCampeonato.Location = new System.Drawing.Point(12, 133);
+            this.btnCampeonato.Name = "btnCampeonato";
+            this.btnCampeonato.Size = new System.Drawing.Size(337, 30);
+            this.btnCampeonato.TabIndex = 0;
+            this.btnCampeonato.Text = "Campeonatos";
+            this.btnCampeonato.UseVisualStyleBackColor = true;
+            this.btnCampeonato.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnJornada
             // 
-            this.button2.Location = new System.Drawing.Point(12, 200);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(337, 32);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Jornadas";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnJornada.Location = new System.Drawing.Point(12, 200);
+            this.btnJornada.Name = "btnJornada";
+            this.btnJornada.Size = new System.Drawing.Size(337, 32);
+            this.btnJornada.TabIndex = 1;
+            this.btnJornada.Text = "Jornadas";
+            this.btnJornada.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnPartido
             // 
-            this.button3.Location = new System.Drawing.Point(12, 269);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(337, 32);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Partidos";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnPartido.Location = new System.Drawing.Point(12, 269);
+            this.btnPartido.Name = "btnPartido";
+            this.btnPartido.Size = new System.Drawing.Size(337, 32);
+            this.btnPartido.TabIndex = 2;
+            this.btnPartido.Text = "Partidos";
+            this.btnPartido.UseVisualStyleBackColor = true;
+            this.btnPartido.Click += new System.EventHandler(this.button3_Click);
             // 
             // label1
             // 
@@ -85,6 +87,15 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(433, 309);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.TabIndex = 5;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -92,10 +103,11 @@
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(520, 344);
             this.ControlBox = false;
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnPartido);
+            this.Controls.Add(this.btnJornada);
+            this.Controls.Add(this.btnCampeonato);
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -107,10 +119,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnCampeonato;
+        private System.Windows.Forms.Button btnJornada;
+        private System.Windows.Forms.Button btnPartido;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnSalir;
     }
 }

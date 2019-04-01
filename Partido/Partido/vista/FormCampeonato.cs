@@ -7,14 +7,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
-namespace Partido.campeonato
+ 
+namespace FormaCampeonato
 {
     public partial class FormCampeonato : Form
     {
+        private string path = "C:\\tem\\campeonato.txt";
         public FormCampeonato()
         {
             InitializeComponent();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtId_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
