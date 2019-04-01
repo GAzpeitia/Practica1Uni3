@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="campeonato\FormAdministracionCampeonatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="campeonato\FormAdministracionCampeonatos.Designer.cs">
+      <DependentUpon>FormAdministracionCampeonatos.cs</DependentUpon>
+    </Compile>
     <Compile Include="campeonato\FormCampeonato.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,12 @@
     <Compile Include="campeonato\FormJornada.Designer.cs">
       <DependentUpon>FormJornada.cs</DependentUpon>
     </Compile>
+    <Compile Include="campeonato\FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="campeonato\FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="championship\Arbitro.cs" />
     <Compile Include="championship\Campeonato.cs" />
     <Compile Include="championship\Cancha.cs" />
@@ -79,6 +91,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="campeonato\FormAdministracionCampeonatos.resx">
+      <DependentUpon>FormAdministracionCampeonatos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="campeonato\FormArbitro.resx">
       <DependentUpon>FormArbitro.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="campeonato\FormJornada.resx">
       <DependentUpon>FormJornada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="campeonato\FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
