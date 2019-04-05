@@ -12,7 +12,7 @@ namespace Partido
     {
         public static formCampeonato campeonato = null;
         public static formJornada jornada = null;
-        public static formPrincipal main = null;
+        public static formPrincipal FormP = null;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -21,7 +21,7 @@ namespace Partido
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            main = new formPrincipal();
+            FormP = new formPrincipal();
             campeonato = new formCampeonato();
             jornada = new formJornada();
             Application.Run(new formPrincipal());
