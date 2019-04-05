@@ -11,23 +11,40 @@ using System.Windows.Forms;
 
 namespace Partido
 { 
-    public partial class FormPrincipal : Form
+    public partial class formPrincipal : Form
     {
         
-        public FormPrincipal()
+        public formPrincipal()
         {
             InitializeComponent();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Form FormP = new formAdministracionCampeonatos();
+            FormP.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Program.formaCampeonato.Show(); //Mostrar ventana
-            Hide();
+            Form FormCamp = new formCampeonato();
+            FormCamp.Show();
+        }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnJornada_Click(object sender, EventArgs e)
+        {
+            Form FormJ = new formJornada();
+            FormJ.Show();
         }
     }
 }

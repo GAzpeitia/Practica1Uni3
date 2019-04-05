@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{017C48B1-EEDE-46C7-AA13-2F4585FD154D}</ProjectGuid>
+    <ProjectGuid>{9805545A-0850-499F-A224-699D9BDA2DCA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Partido</RootNamespace>
-    <AssemblyName>Partido</AssemblyName>
+    <RootNamespace>Unidad2</RootNamespace>
+    <AssemblyName>Unidad2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,29 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="vista\FormAdministracionCampeonatos.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vista\FormAdministracionCampeonatos.Designer.cs">
-      <DependentUpon>FormAdministracionCampeonatos.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="vista\FormCampeonato.cs">
+    <Compile Include="vista\FormArreglos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vista\FormCampeonato.Designer.cs">
-      <DependentUpon>FormCampeonato.cs</DependentUpon>
+    <Compile Include="vista\FormArreglos.Designer.cs">
+      <DependentUpon>FormArreglos.cs</DependentUpon>
     </Compile>
-    <Compile Include="vista\FormArbitro.cs">
+    <Compile Include="vista\FormCiclos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vista\FormArbitro.Designer.cs">
-      <DependentUpon>FormArbitro.cs</DependentUpon>
+    <Compile Include="vista\FormCiclos.Designer.cs">
+      <DependentUpon>FormCiclos.cs</DependentUpon>
     </Compile>
-    <Compile Include="vista\FormJornada.cs">
+    <Compile Include="vista\FormCondicionales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vista\FormJornada.Designer.cs">
-      <DependentUpon>FormJornada.cs</DependentUpon>
+    <Compile Include="vista\FormCondicionales.Designer.cs">
+      <DependentUpon>FormCondicionales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vista\FormFunciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vista\FormFunciones.Designer.cs">
+      <DependentUpon>FormFunciones.cs</DependentUpon>
     </Compile>
     <Compile Include="vista\FormPrincipal.cs">
       <SubType>Form</SubType>
@@ -76,38 +82,19 @@
     <Compile Include="vista\FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="championship\Arbitro.cs" />
-    <Compile Include="championship\Campeonato.cs" />
-    <Compile Include="championship\Cancha.cs" />
-    <Compile Include="championship\Equipo.cs" />
-    <Compile Include="championship\Jornada.cs" />
-    <Compile Include="championship\Jugador.cs" />
-    <Compile Include="championship\Persona.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="vista\FormSecuenciales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="vista\FormSecuenciales.Designer.cs">
+      <DependentUpon>FormSecuenciales.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="vista\FormAdministracionCampeonatos.resx">
-      <DependentUpon>FormAdministracionCampeonatos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="vista\FormArbitro.resx">
-      <DependentUpon>FormArbitro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="vista\FormCampeonato.resx">
-      <DependentUpon>FormCampeonato.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="vista\FormJornada.resx">
-      <DependentUpon>FormJornada.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="vista\FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

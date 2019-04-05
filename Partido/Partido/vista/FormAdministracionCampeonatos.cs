@@ -8,13 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Partido.campeonato
+namespace Partido
 {
-    public partial class FormAdministracionCampeonatos : Form
+    public partial class formAdministracionCampeonatos : Form
     {
-        public FormAdministracionCampeonatos()
+        public formAdministracionCampeonatos()
         {
             InitializeComponent();
+        }
+
+        private void FormAdministracionCampeonatos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

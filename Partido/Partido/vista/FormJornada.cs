@@ -8,13 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Partido.campeonato
+namespace Partido
 {
-    public partial class FormJornada : Form
+    public partial class formJornada : Form
     {
-        public FormJornada()
+        public formJornada()
         {
             InitializeComponent();
+        }
+
+        private void FormJornada_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

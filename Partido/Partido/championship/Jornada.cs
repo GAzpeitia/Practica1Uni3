@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Partido.championship
+namespace Partido.championship.Campeonato
 {
     class Jornada:Persona
     {

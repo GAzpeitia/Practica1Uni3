@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Partido
+namespace Unidad2
 {
-    public partial class formArbitro : Form
+    public partial class Form1 : Form
     {
-        public formArbitro()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void FormArbitro_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Partido
+namespace Unidad2.modelo
 {
-    public partial class formArbitro : Form
+    public partial class FormSecuenciales : Form
     {
-        public formArbitro()
+        public FormSecuenciales()
         {
             InitializeComponent();
-        }
-
-        private void FormArbitro_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

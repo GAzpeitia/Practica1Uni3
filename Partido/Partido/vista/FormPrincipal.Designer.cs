@@ -1,6 +1,6 @@
 ﻿namespace Partido
 {
-    partial class FormPrincipal
+    partial class formPrincipal
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formPrincipal));
             this.btnCampeonato = new System.Windows.Forms.Button();
             this.btnJornada = new System.Windows.Forms.Button();
             this.btnPartido = new System.Windows.Forms.Button();
@@ -56,6 +56,7 @@
             this.btnJornada.TabIndex = 1;
             this.btnJornada.Text = "Jornadas";
             this.btnJornada.UseVisualStyleBackColor = true;
+            this.btnJornada.Click += new System.EventHandler(this.btnJornada_Click);
             // 
             // btnPartido
             // 
@@ -95,8 +96,9 @@
             this.btnSalir.TabIndex = 5;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // FormPrincipal
+            // formPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -109,8 +111,9 @@
             this.Controls.Add(this.btnJornada);
             this.Controls.Add(this.btnCampeonato);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "FormPrincipal";
+            this.Name = "formPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.FormPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -7,13 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
- 
-namespace Partido
+
+namespace Unidad2.modelo
 {
-    public partial class formCampeonato : Form
+    public partial class FormPrincipal : Form
     {
-        //private string path = "C:\\tem\\campeonato.txt";
-        public formCampeonato()
+        public FormPrincipal()
         {
             InitializeComponent();
         }
@@ -23,12 +22,12 @@ namespace Partido
 
         }
 
-        private void txtId_TextChanged(object sender, EventArgs e)
+        private void comboEjercicio_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void FormCampeonato_Load(object sender, EventArgs e)
+        private void FormPrincipal_Load(object sender, EventArgs e)
         {
 
         }
