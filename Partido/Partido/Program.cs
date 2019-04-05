@@ -25,7 +25,7 @@ namespace Partido
             campeonato = new formCampeonato();
             jornada = new formJornada();
             Application.Run(new formPrincipal());
-            //Application.Run(new formPrincipal());
+            
         }
     }
 }

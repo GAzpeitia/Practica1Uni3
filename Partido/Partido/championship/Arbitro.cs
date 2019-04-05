@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Partido.championship.Campeonato
 {
-    class Arbitro //Hereda los atributos de persona
+    class Arbitro:Persona //Hereda los atributos de persona
     {
         //Atributos
         private int _aniosExperiencia;
