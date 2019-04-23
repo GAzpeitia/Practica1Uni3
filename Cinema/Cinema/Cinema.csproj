@@ -63,6 +63,60 @@
     <Compile Include="modelo\Taquillero.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="vista\FormAsiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vista\FormAsiento.Designer.cs">
+      <DependentUpon>FormAsiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vista\FormBoleto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vista\FormBoleto.Designer.cs">
+      <DependentUpon>FormBoleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vista\FormCartelera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vista\FormCartelera.Designer.cs">
+      <DependentUpon>FormCartelera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vista\FormCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vista\FormCliente.Designer.cs">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vista\FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vista\FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vista\FormPelicula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vista\FormPelicula.Designer.cs">
+      <DependentUpon>FormPelicula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vista\FormReservacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vista\FormReservacion.Designer.cs">
+      <DependentUpon>FormReservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vista\FormSala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vista\FormSala.Designer.cs">
+      <DependentUpon>FormSala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vista\FormTaquillero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vista\FormTaquillero.Designer.cs">
+      <DependentUpon>FormTaquillero.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -75,6 +129,33 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="vista\FormAsiento.resx">
+      <DependentUpon>FormAsiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vista\FormBoleto.resx">
+      <DependentUpon>FormBoleto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vista\FormCartelera.resx">
+      <DependentUpon>FormCartelera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vista\FormCliente.resx">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vista\FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vista\FormPelicula.resx">
+      <DependentUpon>FormPelicula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vista\FormReservacion.resx">
+      <DependentUpon>FormReservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vista\FormSala.resx">
+      <DependentUpon>FormSala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vista\FormTaquillero.resx">
+      <DependentUpon>FormTaquillero.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,9 +169,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="vista\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
