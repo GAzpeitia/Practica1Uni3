@@ -37,5 +37,16 @@ namespace Partido
         {
             this.Close();
         }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            Campeonato campe = new Campeonato();
+
+            campe.Id = 9835839;
+            campe.Nombre = "FIFA";
+
+            txtId.Text = campe.Id.ToString();
+            txtNombre.Text = campe.Nombre;
+        }
     }
 }

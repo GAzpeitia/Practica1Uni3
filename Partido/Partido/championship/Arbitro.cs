@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Partido.championship.Campeonato
+namespace Partido
 {
     class Arbitro:Persona //Hereda los atributos de persona
     {

@@ -26,5 +26,20 @@ namespace Partido
         {
             this.Close();
         }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            Jornada jorn = new Jornada();
+
+            jorn.Id = 45896;
+            jorn.FechaInicio = "08/05/2019";
+            jorn.FechaFin = "08/06/2019";
+            jorn.IsConcluida = true;
+
+            txtId.Text = jorn.Id.ToString();
+            txtFechaInicio.Text = jorn.FechaInicio;
+            txtFechaFin.Text = jorn.FechaFin;
+            txtIsConcluido.Text = jorn.IsConcluida.ToString();
+        }
     }
 }
